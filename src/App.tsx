@@ -88,7 +88,7 @@ function App() {
       )}
 
       {/* overlay */}
-      <div className="fixed inset-0 bg-black/30 -z-10" />
+      <div className="fixed inset-0 bg-black/30" style={{ zIndex: -5 }} />
 
       {/* time */}
       <div
