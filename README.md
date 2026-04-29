@@ -1,6 +1,6 @@
 ## Stillwrk
 
-![Stillwrk](screenshot.png)
+![Stillwrk](public/screenshot.png)
 
 A minimal focus timer with ambient video backgrounds. Built with React, TypeScript, and Vite.
 
