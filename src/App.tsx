@@ -69,6 +69,7 @@ function App() {
         loop
         muted
         playsInline
+        poster="/screenshot2.png"
         className="fixed top-0 left-0 w-full h-full object-cover -z-20"
       >
         <source src={videoPlaying} />
@@ -88,7 +89,7 @@ function App() {
       )}
 
       {/* overlay */}
-      <div className="fixed inset-0 bg-black/30" style={{ zIndex: -5 }} />
+      <div className="fixed inset-0 bg-black/20" style={{ zIndex: -5 }} />
 
       {/* time */}
       <div
